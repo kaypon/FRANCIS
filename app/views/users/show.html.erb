@@ -4,36 +4,33 @@
   <strong>First name:</strong>
   <%= @user.first_name %>
 </p>
-
+<br />
 <p>
   <strong>Last name:</strong>
   <%= @user.last_name %>
 </p>
-
+<br />
 <p>
   <strong>Dob:</strong>
   <%= @user.DOB %>
 </p>
-
+<br />
 <p>
   <strong>Passport num:</strong>
   <%= @user.passport_num %>
 </p>
-
+<br />
 <p>
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
-
+<br />
 <p>
   <strong>Password:</strong>
   <%= @user.password %>
 </p>
+<br />
 
-<p>
-  <strong>Gallery:</strong>
-  <%= @user.gallery_id %>
-</p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
