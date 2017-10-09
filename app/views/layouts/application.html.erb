@@ -29,8 +29,8 @@
         <a class="navbar-brand" href="/users">FRANCIS</a>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Users", "/users"  %></li>
-            <li><%= link_to "Reservations", "/reservations"  %></li>
+            <li><%= link_to "Login", "/users"  %></li>
+            <li><%= link_to "Guests", "/reservations"  %></li>
             <li><%= link_to "Hotels", "/hotels"  %></li>
           </ul>
         </div>
@@ -39,13 +39,13 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-9">
+        <!-- <div class="col-lg-9"> -->
           <%= bootstrap_flash %>
           <%= yield %>
-        </div>
-        <div class="col-lg-3">
-          <div class="well sidebar-nav">
-            <h3>Sidebar</h3>
+        <!-- </div>
+        <div class="col-lg-3"> -->
+          <!--  <div class="well sidebar-nav">
+          <h3>Sidebar</h3>
             <ul class="nav nav-list">
               <li class="nav-header">Sidebar</li>
               <li><%= link_to "Users", "/users"  %></li>
@@ -53,7 +53,7 @@
               <li><%= link_to "Reservations", "/reservations"  %></li>
             </ul>
           </div><!--/.well -->
-        </div><!--/span-->
+        <!-- </div><!--/span--> -->
       </div><!--/row-->
 
       <footer>
